@@ -122,4 +122,4 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 from pathlib import Path
 MEDIA_URL = '/media/'
-MEDIA_ROOT = Path(BASE_DIR / 'media')
+MEDIA_ROOT = Path(BASE_DIR , 'media')
